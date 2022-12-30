@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Dilemma6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgMoshpit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="5"
+            app:srcCompat="@drawable/moshpit" />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="9"
+            android:text="You grab the pill and swallow it in 0.1 seconds. Your celebrity crush seems impressed and smiles while they watch you take it. “This will get rid of my headache?” you ask them. “Oh, you’ll see…” they respond, laughing and leaving you there. You shake your head and start looking for your friends again. You realize that you’ll have to mix in with the crowd if you want to find them, so you go down and join the crowd. After 30 minutes of touching shirtless and sweaty people trying to get through the crowd, your head starts to spin. Is that a flying pig? “OMG, I think I am having hallucinations” you think. Yes, you were right, because right now you are completely lost surrounded by hundreds of people that look like aliens and the music is making you extremely paranoid. People start to make some space for you. Finally, you can breathe… wait a second. They are preparing a mosh pit! What do you do?"
+            android:textColor="#EDCDFF" />
+
+        <Button
+            android:id="@+id/btnJoin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:onClick="goDilemma7"
+            android:text="Join the mosh pit" />
+
+        <Button
+            android:id="@+id/btnCircle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:onClick="goDilemma61"
+            android:text="Escape the circle" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

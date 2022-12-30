@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Dilemma4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgBathroom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="7"
+            app:srcCompat="@drawable/bathroom" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="3"
+            android:text="Woah, you demonstrate varsity fence-jumping skills and land inside the festival. You begin to have the urge to cry because you spent that much money for nothing. However, security sees you and starts shouting at your group, so you just start running anywhere safe."
+            android:textColor="#EDCDFF" />
+
+        <Button
+            android:id="@+id/btnBackstage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="2"
+            android:onClick="godilemma5"
+            android:text="follow the music and sneak backstage" />
+
+        <Button
+            android:id="@+id/btnBathroom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:onClick="goDilemma41"
+            android:text="hide in a portable bathroom" />
+
+        <Button
+            android:id="@+id/btnSpeech"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="4"
+            android:onClick="goDilemma42"
+            android:text="Give a heartfelt speech to the security men about how capitalism is ruining the country and how, with the power of love, we could build a better society without conflict" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

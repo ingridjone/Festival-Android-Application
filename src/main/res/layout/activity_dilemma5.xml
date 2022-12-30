@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".dilemma5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgPill"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="5"
+            app:srcCompat="@drawable/pill" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="7"
+            android:text="You follow the music and discover the main stage. Each of your friends ran in opposite directions which created enough chaos to lose security. However, you sneak backstage to better hide from the intimidating men. While you are attempting to locate your friends in the crowd from your backstage hidden spot, you bump into someone. “Watch where you’re going, you piece of…!” you start cussing until you look up and realize that you have bumped into your celebrity crush! They just stare at you looking amused. After recollecting yourself and a bit of small talk, they notice that you seem really stressed out so they offer you a special pill: “I take this before a concert when I am feeling a bit sick. You seem like you need it. Don’t worry, it’s just Ibuprofen”. What do you do?"
+            android:textColor="#EDCDFF"/>
+
+        <Button
+            android:id="@+id/btnRefuse"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:onClick="goDilemma51"
+            android:text="Refuse to take the pill" />
+
+        <Button
+            android:id="@+id/btnTake"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:onClick="goDilemma6"
+            android:text="Take the pill" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

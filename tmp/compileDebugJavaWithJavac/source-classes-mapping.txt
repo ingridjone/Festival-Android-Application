@@ -1,0 +1,37 @@
+com/example/festivalapp/Dilemma31.java
+ com.example.festivalapp.Dilemma31
+com/example/festivalapp/Dilemma21.java
+ com.example.festivalapp.Dilemma21
+com/example/festivalapp/Dilemma1.java
+ com.example.festivalapp.Dilemma1
+com/example/festivalapp/Dilemma41.java
+ com.example.festivalapp.Dilemma41
+com/example/festivalapp/dilemma5.java
+ com.example.festivalapp.dilemma5
+com/example/festivalapp/Dilemma4.java
+ com.example.festivalapp.Dilemma4
+com/example/festivalapp/Dilemma2.java
+ com.example.festivalapp.Dilemma2
+com/example/festivalapp/Dilemma42.java
+ com.example.festivalapp.Dilemma42
+com/example/festivalapp/Dilemma3.java
+ com.example.festivalapp.Dilemma3
+com/example/festivalapp/Dilemma6.java
+ com.example.festivalapp.Dilemma6
+com/example/festivalapp/MainActivity.java
+ com.example.festivalapp.MainActivity
+com/example/festivalapp/Dilemma61.java
+ com.example.festivalapp.Dilemma61
+com/example/festivalapp/Dilemma32.java
+ com.example.festivalapp.Dilemma32
+com/example/festivalapp/Dilemma51.java
+ com.example.festivalapp.Dilemma51
+com/example/festivalapp/TitleScreen.java
+ com.example.festivalapp.TitleScreen
+com/example/festivalapp/BuildConfig.java
+ com.example.festivalapp.BuildConfig
+com/example/festivalapp/Rate.java
+ com.example.festivalapp.Rate
+ com.example.festivalapp.Rate$1
+com/example/festivalapp/Dilemma7.java
+ com.example.festivalapp.Dilemma7

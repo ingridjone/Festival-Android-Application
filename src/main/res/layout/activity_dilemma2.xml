@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Dilemma2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgTickets"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="7"
+            app:srcCompat="@drawable/tickets" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="5"
+            android:text="After midterm exams, your friends are looking for an experience to unwind and have the best time. “Look! I found an incredible festival on Insta, let’s buy tickets right now!”. You are doubting because the Instagram page looks incredibly suspicious… “Whatever” you think. You don’t want to be the lame friend. “There are different packages, should we buy the cheapest one?”. You are obviously a broke college student, but is it worth it to spend a little bit more?"
+            android:textColor="#EDCDFF" />
+
+        <Button
+            android:id="@+id/btnCheap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:onClick="goDilemma21"
+            android:text="Buy Cheap Tickets" />
+
+        <Button
+            android:id="@+id/btnExpensive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:onClick="goDilemma3"
+            android:text="Buy Expensive Tickets" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
